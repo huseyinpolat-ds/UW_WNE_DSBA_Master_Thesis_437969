@@ -1,0 +1,52 @@
+
+<table style="text-align:center"><caption><strong>Fixed and GMM Panel Results (2013 as intervention year)</strong></caption>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">PM25_Total_log</td></tr>
+<tr><td style="text-align:left"></td><td colspan="2"><em>panel</em></td><td colspan="2"><em>panel</em></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2"><em>linear</em></td><td colspan="2"><em>GMM</em></td></tr>
+<tr><td style="text-align:left"></td><td>(1) General Panel</td><td>(2) Specific Panel</td><td>(3) General GMM</td><td>(4) Specific GMM</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">lag(PM25_Total_log, 1)</td><td>0.329<sup>***</sup></td><td>0.348<sup>***</sup></td><td>0.899<sup>***</sup></td><td>0.896<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.056)</td><td>(0.053)</td><td>(0.019)</td><td>(0.019)</td></tr>
+<tr><td style="text-align:left">is_treated</td><td>-0.043<sup>**</sup></td><td>-0.040<sup>**</sup></td><td>0.005</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.013)</td><td>(0.013)</td><td>(0.008)</td><td></td></tr>
+<tr><td style="text-align:left">avg_surface_temp_log</td><td>0.009</td><td></td><td>-0.005</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.073)</td><td></td><td>(0.013)</td><td></td></tr>
+<tr><td style="text-align:left">precipitation_log</td><td>-0.048</td><td>-0.068<sup>***</sup></td><td>0.027<sup>*</sup></td><td>0.026<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.027)</td><td>(0.020)</td><td>(0.013)</td><td>(0.010)</td></tr>
+<tr><td style="text-align:left">humidity</td><td>-0.002</td><td></td><td>-0.004<sup>***</sup></td><td>-0.004<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.002)</td><td></td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">gdp_per_capita_log</td><td>0.069<sup>*</sup></td><td></td><td>-0.034<sup>***</sup></td><td>-0.034<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.032)</td><td></td><td>(0.010)</td><td>(0.008)</td></tr>
+<tr><td style="text-align:left">gdp_per_capita_growth_pct</td><td>0.003<sup>*</sup></td><td></td><td>0.004<sup>***</sup></td><td>0.005<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td></td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">agriculture_pct_gdp</td><td>-0.001</td><td></td><td>-0.002</td><td>-0.002<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.003)</td><td></td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left">industry_pct_gdp</td><td>-0.002</td><td></td><td>0.0001</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td></td><td>(0.001)</td><td></td></tr>
+<tr><td style="text-align:left">pop_total_log</td><td>0.901</td><td>0.395<sup>***</sup></td><td>-0.002</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(1.122)</td><td>(0.091)</td><td>(0.002)</td><td></td></tr>
+<tr><td style="text-align:left">pop_density_log</td><td>-0.415</td><td></td><td>0.006</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(1.113)</td><td></td><td>(0.005)</td><td></td></tr>
+<tr><td style="text-align:left">pop_growth_pct</td><td>0.006</td><td></td><td>0.016<sup>***</sup></td><td>0.016<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.007)</td><td></td><td>(0.004)</td><td>(0.003)</td></tr>
+<tr><td style="text-align:left">pop_urban_pct_of_total</td><td>-0.004</td><td></td><td>-0.00004</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.004)</td><td></td><td>(0.0002)</td><td></td></tr>
+<tr><td style="text-align:left">pop_in_largest_city_pct_of_urban_pop</td><td>0.017<sup>***</sup></td><td>0.018<sup>***</sup></td><td>-0.001<sup>**</sup></td><td>-0.001<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.004)</td><td>(0.004)</td><td>(0.0003)</td><td>(0.0003)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Sargan</td><td></td><td></td><td>44.1597</td><td>44.2188</td></tr>
+<tr><td style="text-align:left">Sargan (p-value)</td><td></td><td></td><td>0.8739</td><td>0.7036</td></tr>
+<tr><td style="text-align:left">AR(1)</td><td></td><td></td><td>-3.8</td><td>-4</td></tr>
+<tr><td style="text-align:left">AR(1) p-value</td><td></td><td></td><td>1e-04</td><td>1e-04</td></tr>
+<tr><td style="text-align:left">AR(2)</td><td></td><td></td><td>-0.65</td><td>-0.65</td></tr>
+<tr><td style="text-align:left">AR(2) p-value</td><td></td><td></td><td>0.5138</td><td>0.5161</td></tr>
+<tr><td style="text-align:left">Wald Coef (df)</td><td></td><td></td><td>39114.47 (14)</td><td>21778.2 (8)</td></tr>
+<tr><td style="text-align:left">Wald Coef p-value</td><td></td><td></td><td>0</td><td>0</td></tr>
+<tr><td style="text-align:left">Wald Time Dummies (df)</td><td></td><td></td><td>270.13 (8)</td><td>221.46 (8)</td></tr>
+<tr><td style="text-align:left">Wald Time Dummies p-value</td><td></td><td></td><td>0</td><td>0</td></tr>
+<tr><td style="text-align:left">Observations</td><td>414</td><td>414</td><td>46</td><td>46</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.406</td><td>0.385</td><td></td><td></td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.291</td><td>0.284</td><td></td><td></td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>16.912<sup>***</sup> (df = 14; 346)</td><td>44.434<sup>***</sup> (df = 5; 355)</td><td></td><td></td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.05; <sup>**</sup>p<0.01; <sup>***</sup>p<0.001</td></tr>
+</table>
