@@ -1,0 +1,9 @@
+"Specification","Model","Model.compared","Test","Test.value","P.value"
+"General","Fixed effects","Random effects","Hausman test",126.479926170168,1.14465333441042e-16
+"General","Fixed effects","OLS","F test for twoways effects",3.62935314323323,1.02209412524815e-11
+"General","Fixed effects","-","Studentized Breusch-Pagan test",81.6290846920472,1.94510556478456e-06
+"General","Fixed effects","-","Breusch-Godfrey/Wooldridge serial correlation test",46.4107755773636,5.05176241277827e-07
+"Specific","Fixed effects","Random effects","Hausman test",156.012469342156,4.48784129072119e-26
+"Specific","Fixed effects","OLS","F test for twoways effects",3.90620126456315,4.04329354463986e-13
+"Specific","Fixed effects","-","Studentized Breusch-Pagan test",61.5615502176497,2.26480208313173e-05
+"Specific","Fixed effects","-","Breusch-Godfrey/Wooldridge serial correlation test",41.7129032858684,3.70840235559935e-06
